@@ -1,0 +1,57 @@
+body{
+    background-color: burlywood;
+}
+
+.contant{
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 5px;
+    border: solid black;
+    BACKGROUND-COLOR: beige;
+    /* BACKGROUND-COLOR: rgb(118, 243, 118); */
+
+}
+
+h1 { 
+    text-align: center;
+ }
+
+
+.add-todo
+{
+    padding-left: 190px;}
+
+
+table tr td{
+    border: solid #999;
+    padding: 10px;
+}
+contact-form i{
+    color: #fff;
+}
+
+form{
+    /* max-width: 500px; */
+    margin: 10px auto;
+    padding: 5px;
+}
+
+
+
+form input,
+form textarea{
+    margin-bottom: 10px;
+}
+
+form textarea{
+    height: 180px;
+}
+form i{ 
+    color: #999;
+}
+
+table{
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
