@@ -56,7 +56,7 @@ if(file_exists('todo.json')){
             <td>
                 <form action="delete.php" method="post">
                     <input type="hidden" name="todo_name" value="<?php echo $todoName?>">
-                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-danger" onclick="return confirm('are u sure !')">Delete</button>
                 </form>
             </td>
         </tr>
